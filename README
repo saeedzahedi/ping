@@ -1,0 +1,12 @@
+This is an implementation of ping function using boot/asio library. It's based on an example  provided with boost/asio which implements a ping program:
+
+bool ping(uint32_t address, uint8_t count, uint16_t timer_milliseconds)
+
+The parameters include:
+- ping address with hex32 format
+- count times the request is sent
+- timer-milliseconds is the time between consecutive requests
+
+It returns true if half the requests or more get replied.
+
+ping.cpp provides a typical call for the function.
