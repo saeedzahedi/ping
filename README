@@ -1,4 +1,4 @@
-This is an implementation of ping function using boot/asio library. It's based on an example  provided with boost/asio which implements a ping program:
+This is an implementation of ping function using boost/asio library. It's based on an example  provided with boost/asio which implements a ping program:
 
 bool ping(uint32_t address, uint8_t count, uint16_t timer_milliseconds)
 
